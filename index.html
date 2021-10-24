@@ -1852,8 +1852,10 @@
       crossorigin="anonymous"
     ></script> -->
   </body>
+
   <script src="./bootstrap.bundle.js"></script>
-  <!-- <script>
+
+  <script>
     var tooltipTriggerList = [].slice.call(
       document.querySelectorAll('[data-bs-toggle="tooltip"]')
     );
@@ -1867,7 +1869,6 @@
 
       // Fetch all the forms we want to apply custom Bootstrap validation styles to
       var forms = document.querySelectorAll(".needs-validation");
-
       // Loop over them and prevent submission
       Array.prototype.slice.call(forms).forEach(function (form) {
         form.addEventListener(
@@ -1877,12 +1878,12 @@
               event.preventDefault();
               event.stopPropagation();
             }
-
+            event.preventDefault();
             form.classList.add("was-validated");
           },
           false
         );
       });
     })();
-  </script> -->
+  </script>
 </html>
