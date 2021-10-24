@@ -257,10 +257,10 @@
               <!--button 要採用 data-bs-target="#pills-profile",  a 要採用 href="#home"-->
               <!--因點擊tab後有border-bottom, 貼著ul, 只能在a裡面推padding否則會造成元素和ul之間有空白存在-->
               <a
-                class="nav-link link-secondary py-4 px-0 px-lg-5"
-                href="#introProject"
+                class="nav-link link-secondary py-4 px-0 px-lg-5 active"
                 id="pills-project-tab"
                 data-bs-toggle="tab"
+                data-bs-target="#introProject"
                 role="tab"
                 aria-controls="pills-project"
                 aria-selected="true"
@@ -296,7 +296,7 @@
             </li>
             <li class="nav-item" role="presentation">
               <a
-                class="nav-link link-secondary py-4 px-0 px-lg-5 active"
+                class="nav-link link-secondary py-4 px-0 px-lg-5"
                 href="#leaveMessage"
                 id="pills-message-tab"
                 data-bs-toggle="tab"
@@ -326,7 +326,7 @@
               id="pills-tabContent"
             >
               <div
-                class="tab-pane fade"
+                class="tab-pane fade show active"
                 id="introProject"
                 role="tabpanel"
                 aria-labelledby="pills-home-tab"
@@ -768,7 +768,7 @@
               </div>
 
               <div
-                class="tab-pane fade w-100 show active"
+                class="tab-pane fade w-100"
                 id="leaveMessage"
                 role="tabpanel"
                 aria-labelledby="pills-message-tab"
