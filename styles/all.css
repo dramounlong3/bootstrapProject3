@@ -12271,6 +12271,12 @@ div[aria-labelledby="pills-home-tab"] p {
 }
 
 @media screen and (max-width: 350px) {
+  button[data-bs-target="#login-modal"] {
+    font-size: 0.6rem;
+  }
+  button[data-bs-target="#Signup-modal"] {
+    font-size: 0.6rem;
+  }
   div.translate-middle {
     width: 65%;
   }
