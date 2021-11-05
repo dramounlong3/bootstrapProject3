@@ -12272,10 +12272,12 @@ div[aria-labelledby="pills-home-tab"] p {
 
 @media screen and (max-width: 350px) {
   button[data-bs-target="#login-modal"] {
-    font-size: 0.6rem;
+    font-size: 0.6rem !important;
+    width: 80px;
   }
-  button[data-bs-target="#Signup-modal"] {
-    font-size: 0.6rem;
+  .sign-up {
+    font-size: 0.6rem !important;
+    width: 80px !important;
   }
   div.translate-middle {
     width: 65%;
@@ -12313,6 +12315,14 @@ div[aria-labelledby="pills-home-tab"] p {
     letter-spacing: 2.25px;
     color: #53524f;
     line-height: 36px;
+  }
+  button[data-bs-target="#login-modal"] {
+    font-size: 0.6rem !important;
+    width: 80px !important;
+  }
+  .sign-up {
+    font-size: 0.6rem !important;
+    width: 80px !important;
   }
   .follow,
   .share {
